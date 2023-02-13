@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+    padding: 0.5rem;
+}
+
+.input{
+    height: 20vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    height: 5vh;
+    width: 30%;
+    margin: 1rem;
+    text-align: center;
+    font-size:1rem;
+    font-weight:bold;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.input button{
+    height: 5vh;
+    width: 15%;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight:bold;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+#chart-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+#chart-container1 {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.waterAndWallContainer, .onlyWaterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank Problem</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://fastly.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Water Tank Problem</h1>
+    </header>
+    <div class="input">
+        <input type="text" id="arr" name="arr" placeholder="Input Array eg: 0,2,4,0,6">
+        <button type="button" id="btn" onclick="fetchInput()" >Generate</button>
+    </div>
+    <hr>
+
+
+    <!-- bar chart-->
+    
+
+    <div class="waterAndWallContainer">
+        <div id="chart-container"></div>
+    </div>
+    <div class="onlyWaterContainer">
+        <h4><span id="waterunit"></span></h4>
+        <div id="chart-container1"></div>
+    </div>
+
+
+    <!-- scripts-->
+    <script src="./script.js"></script>
+</body>
+</html>
